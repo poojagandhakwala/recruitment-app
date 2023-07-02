@@ -1,0 +1,67 @@
+.search-input{
+  width: 400px;
+  line-height: 30px;
+}
+.search-icon{
+  color:white;
+  border: none;
+  background-color: #D6AB00!important;
+  margin-left: -40px!important;
+  width: 40px;
+}
+.card{
+  width:15rem!important;
+  text-align: center;
+  align-items: center;
+}
+.location{
+  border-radius: 80%!important;
+  width:10rem!important;
+  height:10rem!important;
+  margin: 1rem;
+}
+.location .card-body{
+  margin-top: -140px;
+}
+.card-btn{
+  border: none;
+  background-color: #bb9500f2!important;
+  float: right; 
+}
+.icon{
+  font-size:30px;
+  color: black;
+  float:center;
+  text-align: center;
+}
+.arrow-icon{
+  border-radius: 80%!important;
+  opacity: 1;
+  font-size: 80px;
+  height: 160px;
+  margin-bottom: -20px;
+  float: center;
+  width:10rem;
+  visibility: collapse;
+}
+.location:hover .arrow-icon{
+  opacity: 1;
+  visibility: visible;
+  background-color: #f1f1f1a2;
+}
+.location:hover .card-body{
+  opacity: 0.1;
+}
+.category-name,.icon{
+  text-align: center;
+  margin-top:20px;
+}
+.category-name:hover{
+  cursor: pointer;
+  color: #01156ef2;
+}
+@media screen and (max-width:768px) {
+  .location, .categories{
+    margin:0rem -1rem!important;
+  }
+}

@@ -1,0 +1,59 @@
+.loginCon{
+  background-image: url('./images/Sprinkle.svg');
+  background-repeat: repeat;
+  min-height: 100vh;
+}
+.container{
+  width:350px;
+  height:400px;
+  border-radius:20px; 
+  background-color: #f3f3f3!important;
+  padding: 20px;
+  padding-bottom: 25px;
+}
+.register{
+  width:400px;
+  height:480px;
+  border-radius:20px; 
+  background-color: #f3f3f3!important;
+  padding: 20px;
+  padding-bottom: 25px; 
+}
+.formGroup{
+  text-align: left;
+  padding: 10px;
+}
+.formLabel{
+  margin: 10px;
+  font-size: 16px;
+}
+.formControl{
+  width:300px;
+}
+.register .formControl{
+  width: 350px;
+}
+.signup{
+  float:right;
+}
+@media screen and (max-width:768px) {
+  .container{
+    width:300px;
+    /* height:350px; */
+    padding: 20px;
+    padding-bottom: 25px;
+    border-radius:20px; 
+    background-color: #f3f3f3!important;
+  }
+  .register{
+    width:300px;
+    height:480px;
+    border-radius:20px; 
+    background-color: #f3f3f3!important;
+    padding: 20px;
+    padding-bottom: 25px;
+  }
+  .formControl{
+    width:250px;
+  }
+}
