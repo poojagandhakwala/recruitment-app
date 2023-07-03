@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './home.modules.css'
+import './home.modules.css'
 
 function Footer() {
   return (
@@ -17,8 +17,7 @@ function Footer() {
           <a href="/" className="footerLink">Contact Us</a>
       </li>
       </ul>
-
-    
+      <h6 className='text-center'>Designed and Developed By Pooja Gandhakwala</h6>
     </div>
   )
 }

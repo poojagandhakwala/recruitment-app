@@ -84,6 +84,38 @@
   opacity: 1;
   transform: translate(0, 0);
 }
+.footer{
+  margin-top: 150px;
+  background-image: url('./images/wave.png');
+  height: 340px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: block;
+  color: white!important;
+  font-size: 20px;
+  padding-top: 130px;
+  bottom: 0;
+  position: relative;
+}
+.footerContent {
+  float: right;
+  margin-right: 140px;
+  list-style: none;
+}
+.footerLink {
+  text-decoration: none;
+  color: white!important;
+}
+.footerContent li{
+  padding:4px;
+}
+.footer h6{
+  font-size: 20px;
+  margin-top: 170px;
+  color: #3b3b3b!important;
+}
 /* .slide-down {
   opacity: 0;
   transform: translateY(-100%);
@@ -107,7 +139,6 @@
     margin-left:0rem;
   }
   .img1{
-    /* margin-top:1rem; */
     margin-left:2rem;
     float:left;
     height: 250px;
@@ -136,31 +167,30 @@
     height: 350px;
     width:100%;
   }
-}
-.footer{
-  margin-top: 150px;
-  background-image: url('./images/wave2.png');
-  height: 300px;
-  width:100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  margin-bottom: 0px;
-  display: block;
-}
-.footerContent {
-  font-size: 20px;
-  float: right;
-  color: white!important;
-  margin-right: 100px;
-  /* margin-top: 30px; */
-  padding-top: 130px;
-  list-style: none;
-}
-.footerLink {
-  text-decoration: none;
-  color: white!important;
-}
-.footerContent li{
-  padding:4px;
+  .footer{
+    margin-top: 150px;
+    background-image: url('./images/wave.png');
+    height: 370px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: block;
+    color: white!important;
+    font-size: 16px!important;
+    padding-top: 140px;
+    bottom: 0;
+    position: relative;
+  }
+  .footerContent {
+    text-align: center;
+    float: center;
+    margin-right: 100px;
+    list-style: none;
+  }
+  .footer h6{
+    font-size: 15px;
+    margin-top: 170px;
+    color: #3b3b3b!important;
+  }
 }
