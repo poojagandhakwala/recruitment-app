@@ -4,8 +4,6 @@ function Signup() {
   return (
     <div className={`${styles.loginCon} py-4` }> 
     <div className={`mt-5`}>
-    {/* <div className={`${styles.loginCon} py-4`}>
-      <div className={`${styles.container} my-5  */}
       <div className={`${styles.register} container mb-5 bg-light text-dark`}>
         <h2 className='text-center'>Sign Up</h2>
         <form className={`${styles.formGroup} form-group`}>
